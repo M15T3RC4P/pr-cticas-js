@@ -1,9 +1,9 @@
 //mi solución Ejercicio 1
-let altura = parseInt(prompt('ingresa tu altura en metros:'));
-let peso = parseInt(prompt('Ingresa tu peso en kilogramos:'));
+let altura1 = parseInt(prompt('ingresa tu altura en metros:'));
+let peso1 = parseInt(prompt('Ingresa tu peso en kilogramos:'));
 
 function calculoMasaCorporal() {
-    let imc = peso / (altura * altura);
+    let imc = peso1 / (altura1 * altura1);
     alert (`Su indice de masa corporal es ${imc}%`);
 }
 
